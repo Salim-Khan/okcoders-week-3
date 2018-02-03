@@ -1,0 +1,41 @@
+body {
+	margin: 0 auto;
+	max-width: 50 em;
+	padding: 12px;
+	font-family: "Helvetica", " Arial", sans-serif;
+	line-height: 1.5
+}
+
+h1, h2 {
+	color: #444;
+}
+p{
+	color: #333;
+	clear: both;
+}
+.float-left {
+	float: left
+}
+.float-right {
+	float: right;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear:both;
+}
+/* flex container*/
+.columns {
+	display: flex;
+}
+/*
+.columns p {
+	width: 33%;
+	float: left:
+	padding: 6px;
+}*/
+img {
+	margin: 12px;
+	width: 240px;
+	float: left;
+}
